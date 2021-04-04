@@ -227,3 +227,18 @@ caption {
     row-gap: var(--spacing);
   }
 }
+
+.footer-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.footer-right > * {
+  padding: var(--spacing);
+}
+
+a:hover {
+  background-color: var(--secondary-color);
+}
